@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="32.510653">
+<testcase classname="To validate login funcionality" name="To validate login using valid credential" time="20.337761">
+<system-out><![CDATA[Given User in Adactin login page............................................passed
+When user enter"wizardian123" and "wizardian123"............................passed
+And user clk login btn......................................................passed
+And you must be displayed with error  message the "positive"................passed
+Then user select location,hotels,roomtype,roomno,checkin,checkout,adultperroom,childperroom,searchbtn,Submit,radiobutton,countinue,first_name,last_name,address,cc_num,cc_type,cc_exp_month,cc_exp_year,cc_cvv,book_now.passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login funcionality" name="To validate login using invalid credential" time="12.172892">
+<system-out><![CDATA[Given User in Adactin login page............................................passed
+When user clk login btn.....................................................passed
+Then user must be in invalid login page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

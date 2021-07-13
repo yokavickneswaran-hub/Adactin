@@ -1,0 +1,214 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5283515700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in Adactin login page",
+            "match": {
+              "location": "StepDefinition.user_in_fb_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-12T17:44:25.647Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4836071800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "To validate login using valid credential",
+        "description": "",
+        "id": "to-validate-login-funcionality;to-validate-login-using-valid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2018302700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432202100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter\"wizardian123\" and \"wizardian123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wizardian123\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"wizardian123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3766741000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clk login btn",
+            "match": {
+              "location": "StepDefinition.user_clk_login_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13342500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "you must be displayed with error  message the \"positive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"positive\"",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinition.you_must_be_displayed_with_error_message_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3858355000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select location,hotels,roomtype,roomno,checkin,checkout,adultperroom,childperroom,searchbtn,Submit,radiobutton,countinue,first_name,last_name,address,cc_num,cc_type,cc_exp_month,cc_exp_year,cc_cvv,book_now",
+            "match": {
+              "location": "StepDefinition.user_select_location_hotels_roomtype_roomno_checkin_checkout_adultperroom_childperroom_searchbtn_Submit_radiobutton_countinue_first_name_last_name_address_cc_num_cc_type_cc_exp_month_cc_exp_year_cc_cvv_book_now()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4869374900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in Adactin login page",
+            "match": {
+              "location": "StepDefinition.user_in_fb_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-12T17:44:46.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1889180400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate login using invalid credential",
+        "description": "",
+        "id": "to-validate-login-funcionality;to-validate-login-using-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 2235779199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3173064000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clk login btn",
+            "match": {
+              "location": "StepDefinition.user_clk_login_btn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user must be in invalid login page",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_invalid_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login funcionality",
+    "description": "",
+    "id": "to-validate-login-funcionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/FirstProject.feature",
+    "tags": []
+  }
+]
